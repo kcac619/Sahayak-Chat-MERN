@@ -20,7 +20,7 @@ import ScrollableChat from "./ScrollableChat";
 import Lottie from "react-lottie";
 import animationData from "../animations/typingAnimation.json";
 
-const ENDPOINT = "http://localhost:7000";
+const ENDPOINT = "https://sahayak-chat-mern.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {

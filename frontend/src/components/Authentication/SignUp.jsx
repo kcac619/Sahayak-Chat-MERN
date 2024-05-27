@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "http://localhost:7000/api/user",
+        "https://sahayak-chat-mern.onrender.com/api/user",
         {
           name,
           email,
