@@ -16,7 +16,12 @@ connectDB();
 
 app.use(express.json()); //to accept json data
 
-app.use(cors());
+const corsOptions = {
+  origin: "https://sahayak-chat-mern.onrender.com",
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 // app.get("/", (req, res) => {
 //   res.send("API running successfully");
 // });
